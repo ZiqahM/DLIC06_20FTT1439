@@ -1,0 +1,98 @@
+body {
+    font-family: , sans-serif;
+    background-image: url(background.jpg)
+}
+
+p{
+  background: white;
+  text-align: center;
+  font-size: 25px;
+  font-family:
+  padding: 50px;
+}
+
+#outside {
+  z-index: 1;
+  position: absolute;
+  margin: auto;
+  margin-top: 125px;
+  top: 1%;
+  left: 25%;
+	background-color: #FFFAF0;
+	width: 445px;
+	height: 75%;
+	text-align: center;
+  display: inline-block;
+
+    /*card transform to open*/
+	transition: 0.5s;
+	transform-origin: 0;
+  border-style: solid;
+  border-color: #B22222;
+  border-radius: 10px;
+
+}
+
+.open-card {
+	transform: rotateY(90deg);
+}
+
+.wedding {
+    background-color: #FFF8DC;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 2.5em;
+    color: #800000;
+}
+
+.wedding:nth-of-type(1) {
+    transform: rotate(10deg);
+    padding: 0px;
+    margin: 60px;
+}
+
+#inside {
+    z-index: 0;
+    position: absolute;
+    margin: 0 auto;
+    top: 1%;
+    left: 25%;
+    margin-top: 125px;
+    padding-top: 10px;
+    padding-bottom: 90px;
+	  background-color: white;
+	  width: 445px;
+	  height: 57%;
+	  text-align: center;
+	  border-radius: 5px;
+    border-style: solid;
+    border-color: #B22222;
+    border-radius: 10px;
+}
+
+.insidecard {
+    text-align: center;
+    font-size: 1em;
+    color: #A52A2A;
+    justify-content: center;
+}
+
+#content{
+  border-style: solid;
+  border-radius: 10px;
+
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    height: 45px;
+    width: 220px;
+    border-radius: 50%;
+    font-size: 1em;
+    background-color: burlywood;
+    border: 0;
+    color: maroon;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}

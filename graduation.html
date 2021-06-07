@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Graduation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" type="text/css" href="graduation.css">
+
+    <script src="graduation.js"></script>
+</head>
+
+    <body>
+
+
+      <nav>
+        <a href="Homepage.html">Home</a>
+      </nav>
+
+    <!--Outside of the card-->
+        <div id="outside">
+
+            <p class="graduation">Graduation Day Invitation!</p>
+            <br>
+            <img src="graduationcap.gif" width=200px height=180px>
+
+            <button onclick="open_card()">Open</button>
+        </div>
+
+
+
+     <!--Inside of the card-->
+        <div id="inside">
+          <div class="insidecard">
+            <center><p>  You are invited to a  </p></center>
+            <p>Gradiation Day!</p>
+            <p id="content" contenteditable="">
+              Name:    <br> <br>
+              Date:    <br> <br>
+              Time:    <br> <br>
+              Venue:   <br>
+             </p>
+          </div>
+
+          <button onclick="close_card()">Close</button>
+          <button type="button" name="submit">Submit</button>
+
+        </div>
+
+
+
+    </body>
+</html>
